@@ -1,0 +1,15 @@
+{
+    "files.autoSave": "afterDelay",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "eslint.format.enable": true,
+    "source.fixAll.eslint": true,
+    "sqltools.connections": [
+        {
+            "database": "${workspaceFolder}/src/database/db.sqlite",
+            "dialect": "SQLite",
+            "name": "omni"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
